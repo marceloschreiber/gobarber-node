@@ -2,7 +2,7 @@ import { startOfHour } from 'date-fns';
 import { getCustomRepository } from 'typeorm';
 
 import AppError from '@shared/errors/AppError';
-import Appointment from '@modules/appointments/infra/entities/typeorm/Appointment';
+import Appointment from '@modules/appointments/infra/typeorm/entities/Appointment';
 import AppointmentRepository from '@modules/appointments/repositories/AppointmentsRepository';
 
 interface Request {
